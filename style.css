@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-size: 14px;
+
+    /* background-color: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 20%); inside the border
+    color: hsl(0, 0%, 12%); the background color
+    color: hsl(0, 0%, 8%); not found */
+}
+
+.border {
+    background-color: hsl(0, 0%, 12%);;
+    border: 2px solid transparent;
+    width: 24rem;
+    height: 38rem;
+    margin: 4rem auto;
+    border-radius: 0.9rem;
+    text-align: center;
+}
+
+.border img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 2.5rem 0;
+}
+
+.image-box {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.green {
+    color: hsl(75, 94%, 57%);
+    margin: 1rem 0;
+}
+
+p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 0.8rem;
+}
+
+.buttons {
+    margin: 0.5rem 0;
+    width: 80%;
+    height: 7%;
+    border-radius: 7px;
+    background-color: hsl(0, 0%, 20%);
+    color: #fff;
+}
+
